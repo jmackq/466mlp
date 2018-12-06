@@ -37,7 +37,7 @@ def process_data(replays):
     
 if __name__ == '__main__':
     replays = None
-    n = None #number of rows pandas will read
+    n = 20000 #number of rows pandas will read, needs to be mult of 10
     if n is None:
         print('consuming all replays...', end='')
     else:
